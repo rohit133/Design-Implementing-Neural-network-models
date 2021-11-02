@@ -2,8 +2,7 @@
 ## Using Perceprton model,SVM model,LVQ model ,SOM model
 ### INT-246 Soft Computing Techniques CA-1 Project 
 
-
-<img>https://storage.googleapis.com/kaggle-datasets-images/19/19/default-backgrounds/dataset-thumbnail.jpg</img>
+<img src="https://storage.googleapis.com/kaggle-datasets-images/19/19/default-backgrounds/dataset-thumbnail.jpg" width="30px">
 # Iris Species
 ## Classify iris plants into three species in this classic dataset
 ### About this Dataset
