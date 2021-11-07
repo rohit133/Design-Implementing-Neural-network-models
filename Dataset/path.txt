@@ -1,0 +1,1 @@
+data = pd.read_csv("F:\\College\\4th Sem\\INT-246 Soft Computing Techniques\\Project\\Design-Implementing-Neural-network-models\\Dataset\\IRIS.csv")
