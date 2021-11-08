@@ -3,8 +3,8 @@ from numpy.core.numerictypes import ScalarType
 import pandas as pd
 import numpy as np
 from sklearn.datasets import load_iris
-data = load_iris()
 
+data = load_iris()
 
 class Perceptron(object):
     def __init__(self, input_dimension):
@@ -33,12 +33,10 @@ class Perceptron(object):
                 self.bias += update
             loss.append(epoch_loss)
 
-            # print(f"\rEpoch : {e}/{epochs}, loss : {epoch_loss}")   
-        
-        return self.weight, self.bias
+            print(f"\rEpoch : {e}/{epochs}, loss : {epoch_loss}")   
+        return loss
 
 x = data.data
 y = data.target
 obj = Perceptron(input_dimension = 4)
 losses = obj.training(x,y,epochs= 100)
-
